@@ -1,0 +1,20 @@
+
+#game-container {
+    width: 1300px;
+    height: 600px;
+    border: 1px solid #000;
+    position: relative;
+  }
+  .ship {
+    width: 30px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+  }
+  .alien {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+  }
