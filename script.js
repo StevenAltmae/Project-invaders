@@ -66,12 +66,7 @@ function shoot() {
         }
       } else {
         bullet.style.display = 'none';
-      }
-    }
-
-    moveBullet();
-  }
-}
+    
 
 document.addEventListener('keydown', (event) => {
   if (event.keyCode === spaceKey) {
