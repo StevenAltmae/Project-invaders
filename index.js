@@ -38,10 +38,10 @@ function game() {
 function displayGameOver() {
   if (isGameOver) {
     let text = didWin ? "You Win" : "Game Over";
-    let textOffset = didWin ? 3.5 : 5;
+    let textOffset = didWin ? 2.1 : 5;
 
     ctx.fillStyle = "white";
-    ctx.font = "70px";
+    ctx.font = "100px Aerial";
     ctx.fillText(text, canvas.width / textOffset, canvas.height / 2);
   }
 }
@@ -64,5 +64,12 @@ function checkGameOver() {
     isGameOver = true;
   }
 }
+
+const restartButton = document.getElementById("restartButton");
+
+restartButton.addEventListener("click", function () {
+
+  location.reload();
+});
 
 setInterval(game, 1000 / 60);
