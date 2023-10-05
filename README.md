@@ -4,4 +4,5 @@ Team members:
 Kristo-Steven Altmäe,
 Romello Lasn,
 Kevin Jašin,
-Kevin Kangur
+Kevin Kangur,
+Oskar Kallas
